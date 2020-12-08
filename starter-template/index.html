@@ -11,14 +11,23 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+
+  <!--Nav-->
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">TSU</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Socials</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#"><span class="material-icons tooltipped" data-tooltip="Facebook">
+          facebook
+          </span></a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Socials</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -28,7 +37,7 @@
       <br><br>
       <h1 class="header center orange-text">Tech Start-Up</h1>
       <div class="row center">
-        <h5 class="header col s12 light">A very simple landing page for a tech start up</h5>
+        <h5 class="header col s12 light scrollspy" id="home">A very simple landing page for a tech start up</h5>
       </div>
       <div class="row center">
         <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Contact Us Now</a>
@@ -76,11 +85,25 @@
     <br><br>
   </div>
 
+  <!--Image Carousel-->
+  <div class="team scrollspy" id="team">
+  <div class="container">
+    <h2 class="center orange-text text-darken-1">Our Team</h2>
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#"><img src="team 1.jpg"></a>
+      <a class="carousel-item" href="#"><img src="team 2.jpg"></a>
+      <a class="carousel-item" href="#"><img src="team 3.jpg"></a>
+      <a class="carousel-item" href="#"><img src="team 4.jpg"></a>
+    </div>
+  </div>
+</div>
+<!--Footer-->
+<br><br>
   <footer class="page-footer orange">
-    <div class="container">
+    <div class="container scrollspy">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">About Us</h5>
+          <h5 class="white-text " id="about">About Us</h5>
           <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto velit nam, ullam veritatis ipsum laborum soluta cum. Ipsum, asperiores. Itaque repudiandae, excepturi dolorem vitae ad corporis inventore quia nemo eaque?</p>
           <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto velit nam, ullam veritatis ipsum laborum soluta cum. Ipsum, asperiores. Itaque repudiandae, excepturi dolorem vitae ad corporis inventore quia nemo eaque?</p>
 
